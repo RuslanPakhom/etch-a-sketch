@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffa700;
+}
+
+
+.menu{
+    height: 160px;
+    margin:0 auto;
+    text-align: center;
+}
+
+label{
+    font-size:18px;
+    color:#111;
+    font-size: 18px;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    height:550px;
+    width:550px;
+    margin: 30px auto;
+
+}
+
+.cell{
+    background-color: #ff6f00;
+    width:6.25%;
+    height:6.25%;
+}
+
+.cell-active{
+    background-color: green;
+}
+
+#clear{
+    background-color: #ff6f00;
+    padding:15px;
+    font-size: 20px;
+    color: #FB000D;
+    font-weight:900;
+    margin: 10px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <button id="clear">Clear</button>
+            <form name="grid-size">
+                <div>
+                    <label for="size">Grid Size</label>
+            <input type="range" id="size" name="size" 
+                   min="16" max="64" value="16" step="1">
+                   <output name="sizeOutput" id="sizeOutput">16x16</output>
+            
+        </div>
+            
+            <div>
+                <label for="color">Color</label>
+                <input type="color" id="color" name="color"
+                       value="#ff0000">
+                
+            </div>
+        </form>
+          
+    </div>
+    <div class="container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
